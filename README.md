@@ -1,8 +1,18 @@
 # EduExcluders - Explainable Artificial Intelligence
 
+## Notebooks
+The code is seperated into various notebooks, namely:
+- `eda_before_preprocessing.ipynb` contains the exploratory data analysis notebook.
+- `data_preprocessing.ipynb` contains the notebook which preprocesses the data.
+- `model_testing.ipynb` contains the various models that were used during EDA and after to find a good option.
+- `LIME.ipynb` contains the LIME explanations
+- `SHAP.ipynb` contains the SHAP explanations
+- `PDP_ICE.ipynb` contains the PDP/ICE explanations
+
+
 ## Dataset
 This study uses the [Predict Students' Dropout and Academic Success](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success) dataset from the UC Irvine Machine Learning Repository.
-
+The dataset is located in the `data` directory of this repository, in which `data.csv` is the original data and `formatted_data` is the preprocessed data.
 
 ### Dataset info
 
